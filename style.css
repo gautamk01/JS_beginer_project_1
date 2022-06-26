@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -5,14 +7,26 @@
 }
 
 body {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+.makecenter {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.text {
+  margin: 50px;
+  font-family: "Pacifico", cursive;
+}
 .emoji {
   margin: 50px;
   cursor: pointer;
+  margin-top: 200px;
 }
 .close {
   display: none;
