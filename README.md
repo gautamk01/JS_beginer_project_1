@@ -1,1 +1,3 @@
-# JS_beginer_project_1
+# JS_beginer_project_1  
+Monkey project
+
